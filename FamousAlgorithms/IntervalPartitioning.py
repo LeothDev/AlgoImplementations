@@ -9,9 +9,6 @@ reqLists = [[1, 9],
             [2, 5],
             [7, 8]]
 
-def depth(overlappingRequests):
-    pass
-
 def intervalPartitioning(requestLists):
     startingTimeList = sorted(requestLists, key=lambda x: (x[1], x[0]))
     d = 0
